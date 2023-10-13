@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <LINK REL="STYLESHEET" HREF="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+</head>
+<body background>
+    <button onclick="clear()"></button>
+    <DIV ID="HEADER">
+        <IMG SRC="team3.jpg">
+        <div class="container">
+        <nav>
+            <img src="/logo1.jpg" class="logo">
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times"onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <p>Web  Developer</p>
+            <h1>Hi,I'm <span> Manmita</span> from India</h1>
+        </div>
+       </div>
+    </DIV>
+   <!------------about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="/lima.jpg"alt="jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3><p>Hello!</p>
+                    <p>Myself Manmita,</p>
+                <p>I'm 20 years old.</p>
+            <p>I have knowlwdge about c,</p>
+                <p>java,c++,html and css</p>
+        <p>Now,I'm learning DSA to solve</p> 
+        <p>the realworld problems.</p>
+    <p>Thank You!</p></h3>
+
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">&nbsp;Skills &nbsp;  &nbsp; </p>
+    
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><BR>Desinging Web</li>
+                    <li><span>Web development</span><BR>Desinging Web interface</li>
+                        <li><span>App development</span><BR>Desinging Android/ios</li>
+            </ul>
+        </div>
+
+    </div>
+        <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('experience')"> Experience  &nbsp; &nbsp;</p>
+    <br>
+    <div class="tab-contents active-tab "id="experience">
+    
+        <ul>
+            <li><span>2023-current</span><BR>DSA</li>
+                <li><span>2022-2022</span><BR>project using java and c</li>
+                    <li><span>2021-2022</span><BR>project using html</li>
+        </ul>
+    </div>
+</div>
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('education')">Education </p>
+
+<div class="tab-contents active-tab " id="education">
+    <ul>
+        <li><span>2023-current</span><BR>persuing Btech</li>
+            <li><span> CHSE-2021</span><BR>completed in NIST</li>
+                <li><span> HSC-2018</span><BR>completed in BDBK</li>
+    </ul>
+</div>
+    </div>
+   
+
+    
+        </ul>
+    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>web design </h2>
+                    <p>learn about web designing witha easy schedule</p>
+                    <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX design </h2>
+                <p>learn about web designing witha easy schedule</p>
+                <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>App design </h2>
+            <p>learn about web designing witha easy schedule</p>
+            <a href="#">Learn more</a>
+      </div>
+            </div>
+        </div>
+    </div>
+    <!----------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/radha.jpg">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>The app connect you to the talented people</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                    </div>
+                    <div class="work">
+                        <img src="/radha.jpg">
+                        <div class="layer">
+                            <h3>Edit picture app</h3>
+                            <p>The app connect you to best images.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        
+                     </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------contact-------------->
+    <div id="contact">
+        <div class=".container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>panigrahimanmita@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7205103546</p>
+                    <div class="social-icons">
+                        <a herf=""><i class="fab fa-linkedin"></i></a>
+                        <a herf=""><i class="fab fa-telegram"></i></a>
+                        <a herf=""><i class="fab fa-instagram"></i></a>
+                        <a herf=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="MYCV.png"class="btn btn2">Download CV</a>
+                    </div>
+                    
+                    <div class="contact-right"></div>
+                    <form>
+                        <input type="text"name="Name"placeholder="your name"required>
+                        <input type="email"name="email"placeholder="your Email"required>
+                        <input type="message"name="message"placeholder="your message"required>
+                        <a href= "# Submit"class="btn btn2">submit</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copy right manmita.made with<i class="fas fa-heart"></i> easy tutorials</p>
+        </div>
+    </div>
+    
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontents.classList.remove("active-tab");
+            }
+            event.curentTarget.classList.add("active-link");
+            document.getElementsById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
